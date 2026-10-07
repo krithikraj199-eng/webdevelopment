@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-atelier-bg: #131316;
+  --color-atelier-surface: #1F1F22;
+  --color-atelier-surface-hover: #26262B;
+  --color-atelier-border: #27272A;
+  --color-atelier-border-subtle: #1E1E22;
+  --color-atelier-primary: #FAFAFA;
+  --color-atelier-secondary: #A1A1AA;
+  --color-atelier-muted: #71717A;
+  --color-atelier-accent: #4F46E5;
+  --color-atelier-accent-blue: #3B82F6;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: #131316;
+  color: #FAFAFA;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}

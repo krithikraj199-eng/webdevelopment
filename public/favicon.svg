@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#131316" rx="4"/>
+  <rect x="0.5" y="0.5" width="31" height="31" fill="none" stroke="#27272A" rx="3.5"/>
+  <text x="6" y="21" font-family="'JetBrains Mono', monospace, ui-monospace" font-size="12" font-weight="700" fill="#FAFAFA" letter-spacing="-0.5">KR</text>
+  <circle cx="25" cy="19" r="2" fill="#3B82F6"/>
+</svg>
